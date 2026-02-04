@@ -453,7 +453,7 @@ export function HeroSection() {
             Book a Demo
           </Button>
         </Link>
-        <Link href="#features-section">
+        <Link href="https://lead-gen-os.vercel.app/demo" target="_blank" rel="noopener noreferrer">
           <Button variant="outline" className="px-8 py-3 rounded-full font-medium text-base border-white/20 hover:bg-white/10">
             See How It Works
           </Button>
