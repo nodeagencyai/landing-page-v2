@@ -1,0 +1,7 @@
+{
+    "buildCommand": "cd leadgenosv2 && npm run build",
+    "devCommand": "cd leadgenosv2 && npm run dev",
+    "installCommand": "cd leadgenosv2 && npm install",
+    "framework": "nextjs",
+    "outputDirectory": "leadgenosv2/.next"
+}
