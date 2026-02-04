@@ -34,7 +34,7 @@ const BentoCard: React.FC<BentoCardProps> = ({ title, description, Component }) 
         </p>
       </div>
     </div>
-    <div className="self-stretch h-72 relative -mt-0.5 z-10 filter grayscale-[20%] group-hover:grayscale-0 transition-all duration-500">
+    <div className="self-stretch h-72 relative -mt-0.5 z-10 filter grayscale transition-all duration-500">
       <Component />
     </div>
   </div>

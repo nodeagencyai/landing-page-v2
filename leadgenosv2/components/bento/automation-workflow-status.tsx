@@ -11,9 +11,9 @@ const AutomationWorkflowStatus: React.FC = () => {
             total: 100,
             status: "running",
             icon: FolderSearch,
-            color: "text-amber-500",
-            bgColor: "bg-amber-500/10",
-            borderColor: "border-amber-500/20"
+            color: "text-foreground/70",
+            bgColor: "bg-foreground/5",
+            borderColor: "border-foreground/10"
         },
         {
             id: 2,
@@ -23,9 +23,9 @@ const AutomationWorkflowStatus: React.FC = () => {
             total: 45,
             status: "running",
             icon: RefreshCw,
-            color: "text-blue-500",
-            bgColor: "bg-blue-500/10",
-            borderColor: "border-blue-500/20"
+            color: "text-foreground/70",
+            bgColor: "bg-foreground/5",
+            borderColor: "border-foreground/10"
         },
         {
             id: 3,
@@ -35,9 +35,9 @@ const AutomationWorkflowStatus: React.FC = () => {
             total: 100,
             status: "waiting",
             icon: Database,
-            color: "text-emerald-500",
-            bgColor: "bg-emerald-500/10",
-            borderColor: "border-emerald-500/20"
+            color: "text-foreground/70",
+            bgColor: "bg-foreground/5",
+            borderColor: "border-foreground/10"
         }
     ]
 
@@ -47,7 +47,7 @@ const AutomationWorkflowStatus: React.FC = () => {
                 {/* Header */}
                 <div className="flex items-center justify-between px-1">
                     <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                        <div className="w-2 h-2 rounded-full bg-foreground/60 animate-pulse" />
                         <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Live Workflows</span>
                     </div>
                     <span className="text-[10px] text-muted-foreground font-mono">2 Active</span>
@@ -63,7 +63,7 @@ const AutomationWorkflowStatus: React.FC = () => {
                             {/* Animated Progress Bar Background */}
                             {job.status === 'running' && (
                                 <div
-                                    className="absolute bottom-0 left-0 h-[2px] bg-primary/50 transition-all duration-1000 ease-out"
+                                    className="absolute bottom-0 left-0 h-[2px] bg-foreground/30 transition-all duration-1000 ease-out"
                                     style={{ width: `${(job.progress / job.total) * 100}%` }}
                                 />
                             )}
@@ -79,7 +79,7 @@ const AutomationWorkflowStatus: React.FC = () => {
                                     </div>
                                 </div>
                                 {job.status === 'running' ? (
-                                    <Loader2 className="w-3.5 h-3.5 text-primary animate-spin" />
+                                    <Loader2 className="w-3.5 h-3.5 text-foreground/60 animate-spin" />
                                 ) : (
                                     <div className="w-3.5 h-3.5 rounded-full border border-white/20 flex items-center justify-center">
                                         <div className="w-1 h-1 rounded-full bg-muted-foreground" />
