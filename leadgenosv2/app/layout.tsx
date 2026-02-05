@@ -9,13 +9,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'LeadGenOS — AI-Powered Lead Generation Platform',
   description: 'Generate, qualify, and convert leads on autopilot with AI-powered outreach and intelligent pipeline management.',
-  icons: {
-    icon: {
-      url: '/icon.svg',
-      type: 'image/svg+xml',
-    },
-    apple: '/icon.svg',
-  },
 }
 
 export default function RootLayout({
