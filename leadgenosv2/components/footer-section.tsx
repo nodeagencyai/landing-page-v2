@@ -53,17 +53,21 @@ export function FooterSection() {
   return (
     <footer className="w-full py-10 bg-background">
       <div className="max-w-[1320px] mx-auto px-5">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6 p-6 rounded-2xl bg-secondary/5 border border-border/10">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-6 p-6 rounded-2xl bg-secondary/5 border border-border/10">
           {/* Left: Logo */}
-          <Logo />
+          <div className="justify-self-center md:justify-self-start">
+            <Logo />
+          </div>
 
           {/* Middle: Navigation */}
-          <nav className="flex items-center gap-6">
+          <nav className="flex items-center gap-6 justify-self-center">
             <NavLinks />
           </nav>
 
           {/* Right: Socials */}
-          <SocialLinks />
+          <div className="justify-self-center md:justify-self-end">
+            <SocialLinks />
+          </div>
         </div>
 
         {/* Bottom: Copyright */}
