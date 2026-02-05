@@ -56,7 +56,7 @@ export function FooterSection() {
         <div className="md:col-span-6 flex flex-col items-start gap-4">
           <Logo />
           <p className="text-muted-foreground text-sm max-w-xs">
-            The complete AI outbound platform. Find, research, write, and send—all in one place.
+            Scale your outbound without scaling your headcount.
           </p>
           <div className="pt-2">
             <SocialLinks />
