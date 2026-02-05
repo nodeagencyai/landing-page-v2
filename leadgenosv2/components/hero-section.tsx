@@ -447,14 +447,14 @@ export function HeroSection() {
         </p>
       </div>
 
-      <div className="relative z-10 flex flex-col sm:flex-row gap-3">
+      <div className="relative z-10 flex flex-row gap-3">
         <Link href="https://cal.com/node-ai/leadgenos-demo" target="_blank" rel="noopener noreferrer">
-          <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-8 py-3 rounded-full font-medium text-base shadow-lg ring-1 ring-white/10">
+          <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-6 sm:px-8 py-3 rounded-full font-medium text-base shadow-lg ring-1 ring-white/10">
             Book a Demo
           </Button>
         </Link>
         <Link href="https://lead-gen-os.vercel.app/demo" target="_blank" rel="noopener noreferrer">
-          <Button variant="outline" className="px-8 py-3 rounded-full font-medium text-base border-white/20 hover:bg-white/10">
+          <Button variant="outline" className="px-6 sm:px-8 py-3 rounded-full font-medium text-base border-white/20 hover:bg-white/10">
             See How It Works
           </Button>
         </Link>
