@@ -2,6 +2,7 @@
 
 import { Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function PricingSection() {
   const pricingPlans = [
@@ -98,13 +99,15 @@ export function PricingSection() {
                   {plan.description}
                 </div>
               </div>
-              <Button
-                className={`self-stretch px-5 py-2 rounded-[40px] flex justify-center items-center ${plan.buttonClass}`}
-              >
-                <span className="text-center text-sm font-medium leading-tight">
-                  {plan.buttonText}
-                </span>
-              </Button>
+              <Link href="https://cal.com/node-ai/leadgenos-demo" target="_blank" rel="noopener noreferrer" className="self-stretch">
+                <Button
+                  className={`w-full px-5 py-2 rounded-[40px] flex justify-center items-center ${plan.buttonClass}`}
+                >
+                  <span className="text-center text-sm font-medium leading-tight">
+                    {plan.buttonText}
+                  </span>
+                </Button>
+              </Link>
             </div>
             <div className="self-stretch flex flex-col justify-start items-start gap-4">
               <div
