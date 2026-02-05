@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <section
       className="flex flex-col items-center text-center relative mx-auto rounded-2xl overflow-hidden my-6 py-0 px-4
-         w-full h-[400px] md:w-[1220px] md:h-[600px] lg:h-[810px] md:px-0"
+         w-full h-[540px] sm:h-[560px] md:w-[1220px] md:h-[600px] lg:h-[810px] md:px-0"
     >
       {/* SVG Background */}
       <div className="absolute inset-0 z-0">
@@ -448,7 +448,7 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 flex flex-col sm:flex-row gap-3">
-        <Link href="https://vercel.com/home" target="_blank" rel="noopener noreferrer">
+        <Link href="https://cal.com/node-ai/leadgenos-demo" target="_blank" rel="noopener noreferrer">
           <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-8 py-3 rounded-full font-medium text-base shadow-lg ring-1 ring-white/10">
             Book a Demo
           </Button>
