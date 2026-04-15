@@ -1,0 +1,11 @@
+{
+  "name": "leadgenos-web",
+  "private": true,
+  "scripts": {
+    "build": "cd leadgenosv2 && npm install && npm run build",
+    "dev": "cd leadgenosv2 && npm run dev"
+  },
+  "dependencies": {
+    "next": "15.2.6"
+  }
+}
