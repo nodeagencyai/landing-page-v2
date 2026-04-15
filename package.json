@@ -6,6 +6,6 @@
     "dev": "cd leadgenosv2 && npm run dev"
   },
   "dependencies": {
-    "next": "15.2.6"
+    "next": "^15.2.6"
   }
 }
